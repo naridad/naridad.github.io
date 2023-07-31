@@ -1,0 +1,79 @@
+/* Margin is set by each element and its size, do people just globally 0 these out? */
+body {
+    padding: 50px 125px 50px 125px;
+    font-family: 'Arial';
+    text-align: justify;
+    background-color: #EAE7DC
+  }
+  /* Is there no way to reference other classes without scss? */
+  strong {
+    color: #E98074;
+  }
+  p.about {
+    margin: 0 0 0 0;
+  }
+  h1 {
+    font-family: 'Courier';
+    font-size: 60px;
+    margin: 0 0 0 0;
+  }
+  h2 {
+    font-family: 'Courier';
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0 0 0 0;
+  }
+  h3 {
+    font-family: 'Courier';
+    font-size: 30px;
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+  }
+  h4, h5, h6 {
+    font-family: 'Courier';
+    margin: 0 0 0 0;
+  }
+  /* tr elements with row-space-bottom class and apply it to the td elements enclosed */
+  tr.row-space-bottom>td {
+    padding-bottom: 20px;
+  }
+  img.profile {
+    padding-right: 20px;
+    float: left; /* Is this the right way to do this? */
+    height: 250px
+  }
+  /* How to I get the containing div to take up the necessary space */
+  div.image-container {
+    min-height: 275px
+  }
+  table {
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%
+  }
+  ul {
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+  }
+  li {
+    padding-bottom: 2px;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .extra-padding-bottom-x-small {
+    padding-bottom: 5px;
+  }
+  .extra-padding-bottom-small {
+    padding-bottom: 10px;
+  }
+  .extra-padding-left-small {
+    padding-left: 10px;
+  }
+  a:link {
+    color: #E98074;
+  }
+  a:visited {
+    color: #E85A4F;
+  }
