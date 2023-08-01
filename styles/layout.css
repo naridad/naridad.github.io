@@ -3,7 +3,7 @@ body {
     padding: 50px 125px 50px 125px;
     font-family: 'Arial';
     text-align: justify;
-    background-color: #EAE7DC
+    background-color: #292929
   }
   /* Is there no way to reference other classes without scss? */
   strong {
