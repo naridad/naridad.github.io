@@ -9,6 +9,9 @@ body {
   strong {
     color: #ffff69;
   }
+  li {
+    color: #e6e600
+  }
   p.about {
     margin: 0 0 0 0;
   }
