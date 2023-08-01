@@ -12,6 +12,9 @@ body {
   li {
     color: #e3e3e3
   }
+  td {
+    color: #e3e3e3
+  }
   p.about {
     margin: 0 0 0 0;
   }
