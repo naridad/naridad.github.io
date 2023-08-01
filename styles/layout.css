@@ -7,10 +7,10 @@ body {
   }
   /* Is there no way to reference other classes without scss? */
   strong {
-    color: #ffff69;
+    color: #e3e3e3;
   }
   li {
-    color: #e6e600
+    color: #e3e3e3
   }
   p.about {
     margin: 0 0 0 0;
